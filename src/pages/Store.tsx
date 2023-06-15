@@ -4,7 +4,7 @@ import { StoreItem } from "../components/StoreItem";
 export const Store = () => {
   return (
     <>
-      <h1 className="d-flex justify-content-center mb-2">Store</h1>
+      <h3 className="d-flex justify-content-center mb-2">Store</h3>
       <Row md={2} xs={1} lg={3} className="g-3">
         {storeItems.map((item) => {
           return (
